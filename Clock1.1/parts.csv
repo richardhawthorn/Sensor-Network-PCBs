@@ -1,0 +1,36 @@
+Partlist
+
+Exported from Clock1.1.brd at 11/30/14 9:48 AM
+
+EAGLE Version 7.1.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                   Library              Position (inch)       Orientation
+
+BATT     CR1220         CR1220-SMD                adafruit             (1.65 1.4)            MR90
+C1       0.1            CAP-PTH-SMALL2            LowPowerLab          (0.425 0.375)         R180
+C2       0.1            CAP-PTH-SMALL2            LowPowerLab          (0.325 0.25)          R0
+C3       0.1uF          C025-025X050              adafruit             (0.3125 1.8)          R90
+CN1      USB            USB-MINIB                 LowPowerLab          (0.139 0.676)         R270
+CN4      FTDI           1X06                      pinhead              (0.575 0.13)          R180
+HOURS    DTS-3          DTS-3                     switch-tact          (0.625 1.825)         R0
+IC1      ATMEGA         DIL28-3-ROUND             adafruit             (1.13125 0.6625)      R0
+IC2      DS3231         SO16W                     adafruit             (0.28125 1.4)         MR270
+ICSP1    ICSP           2X03                      pinhead              (1.53 0.125)          R0
+MINUTES  DTS-3          DTS-3                     switch-tact          (1.35 1.825)          R0
+QF1      8M10AHC49T     HC49U                     crystal              (1.525 0.35)          R0
+R1       82             0204/7                    adafruit             (0.3 1.05)            R0
+R2       82             0204/7                    adafruit             (0.3 0.95)            R0
+R3       82             0204/7                    adafruit             (0.75 1.05)           R0
+R4       82             0204/7                    adafruit             (0.75 0.95)           R0
+R5       82             0204/7                    adafruit             (1.2 1.05)            R0
+R6       82             0204/7                    adafruit             (1.2 0.95)            R0
+R7       82             0204/7                    adafruit             (1.65 1.05)           R0
+R8       82             0204/7                    adafruit             (1.65 0.95)           R0
+R9       680            0204/7                    adafruit             (0.675 0.375)         R0
+R10      10K            0204/7                    adafruit             (0.675 0.25)          R0
+R11      10K            0204/7                    adafruit             (1.1 0.375)           R0
+R12      10K            0204/7                    adafruit             (1.1 0.25)            R0
+R13      10K            0204/7                    adafruit             (1.1 0.125)           R0
+U$1      7SEG-4DIGIT    SPARKFUN_7-SEGMENT-4DIGIT sparkfun-4digit-sseg (0.975 1.4125)        R0
