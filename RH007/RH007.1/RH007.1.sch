@@ -7669,11 +7669,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="59.69" y1="64.77" x2="67.31" y2="64.77" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="283.21" y1="153.67" x2="283.21" y2="166.37" width="0.1524" layer="91"/>
-<label x="283.21" y="166.37" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="A3" gate="1" pin="2"/>
 <wire x1="218.44" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="208.28" y="66.04" size="1.778" layer="95"/>
@@ -8077,6 +8072,11 @@ type 0309, grid 2.5 mm</description>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <wire x1="302.26" y1="83.82" x2="276.86" y2="83.82" width="0.1524" layer="91"/>
 <label x="276.86" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="283.21" y1="153.67" x2="283.21" y2="166.37" width="0.1524" layer="91"/>
+<label x="283.21" y="166.37" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADD0" class="0">
