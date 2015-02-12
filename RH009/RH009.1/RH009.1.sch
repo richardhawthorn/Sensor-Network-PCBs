@@ -6022,18 +6022,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="246.38" y1="104.14" x2="209.55" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PWR" class="1">
-<segment>
-<wire x1="215.9" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
-<label x="215.9" y="134.62" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="13"/>
-</segment>
-<segment>
-<pinref part="A3" gate="1" pin="2"/>
-<wire x1="210.82" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
-<label x="200.66" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="D9" class="0">
 <segment>
 <label x="219.71" y="162.56" size="1.778" layer="95"/>
@@ -6198,6 +6186,16 @@ type 0309, grid 2.5 mm</description>
 <wire x1="140.97" y1="27.94" x2="140.97" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <label x="140.97" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="215.9" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
+<label x="215.9" y="134.62" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="13"/>
+</segment>
+<segment>
+<pinref part="A3" gate="1" pin="2"/>
+<wire x1="210.82" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
+<label x="200.66" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
