@@ -7738,6 +7738,26 @@ type 0309, grid 2.5 mm</description>
 <wire x1="218.44" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 <label x="208.28" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="64.77" y1="27.94" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="22.86" x2="72.39" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="30.48" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
+<junction x="64.77" y="30.48"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="P+2" gate="1" pin="VCC"/>
+<wire x1="64.77" y1="35.56" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="113.03" y1="27.94" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="22.86" x2="120.65" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="30.48" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
+<junction x="113.03" y="30.48"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="P+3" gate="1" pin="VCC"/>
+<wire x1="113.03" y1="35.56" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -7831,28 +7851,6 @@ type 0309, grid 2.5 mm</description>
 <pinref part="A6" gate="1" pin="1"/>
 <wire x1="228.6" y1="33.02" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
 <label x="238.76" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<wire x1="64.77" y1="27.94" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="22.86" x2="72.39" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="30.48" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
-<junction x="64.77" y="30.48"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<pinref part="P+2" gate="1" pin="VCC"/>
-<wire x1="64.77" y1="35.56" x2="64.77" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="113.03" y1="27.94" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="22.86" x2="120.65" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="30.48" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
-<junction x="113.03" y="30.48"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<pinref part="P+3" gate="1" pin="VCC"/>
-<wire x1="113.03" y1="35.56" x2="113.03" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
