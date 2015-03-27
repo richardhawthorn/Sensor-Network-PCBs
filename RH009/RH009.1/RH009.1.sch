@@ -6209,6 +6209,26 @@ type 0309, grid 2.5 mm</description>
 <wire x1="210.82" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
 <label x="200.66" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="77.47" y1="27.94" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="22.86" x2="85.09" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="30.48" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
+<junction x="77.47" y="30.48"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="P+2" gate="1" pin="VCC"/>
+<wire x1="77.47" y1="35.56" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="125.73" y1="27.94" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="22.86" x2="133.35" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="30.48" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
+<junction x="125.73" y="30.48"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="P+3" gate="1" pin="VCC"/>
+<wire x1="125.73" y1="35.56" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -6300,28 +6320,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="40.64" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <label x="30.48" y="129.54" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<wire x1="77.47" y1="27.94" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="85.09" y1="22.86" x2="85.09" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="85.09" y1="30.48" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
-<junction x="77.47" y="30.48"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<pinref part="P+2" gate="1" pin="VCC"/>
-<wire x1="77.47" y1="35.56" x2="77.47" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="125.73" y1="27.94" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="22.86" x2="133.35" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="30.48" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
-<junction x="125.73" y="30.48"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<pinref part="P+3" gate="1" pin="VCC"/>
-<wire x1="125.73" y1="35.56" x2="125.73" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VLED" class="1">
