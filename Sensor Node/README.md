@@ -1,4 +1,10 @@
-# Sensor Node
+### Description
+
+A sensor node, designed to collect and report various sensor reading sover a local rf network.
+
+<div id="link">
+	<a href="http://www.deluxecapacitor.com/projects/view/2">Project Page</a>
+</div>
 
 ### Sensors
 
@@ -28,11 +34,3 @@
 - ICSP port
 - 4x LED outputs
 - Battery level reporting
-
-### Images
-
-##### Front
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/Sensor%20Node/images/pcb_front.png">
-
-##### Back
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/Sensor%20Node/images/pcb_back.png">
