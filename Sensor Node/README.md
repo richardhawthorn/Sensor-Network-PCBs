@@ -1,6 +1,6 @@
 ### Description
 
-A sensor node, designed to collect and report various sensor reading sover a local rf network.
+A sensor node, designed to collect and report various sensor readings over a local RF network.
 
 <div id="link">
 	<a href="http://www.deluxecapacitor.com/projects/view/2">Project Page</a>
