@@ -1,4 +1,6 @@
-# LCD Base Station Front Plate
+### Features
+
+Front plate for LCD base station
 
 - 12x capacitive buttons
 - Space for 128x64 LCD
@@ -6,21 +8,21 @@
 
 ### Buttons
 
-#### LCD
+##### LCD
 
 - Top Left
 - Bottom Left
 - Top Right
 - Bottom Right
 
-#### Directional
+##### Directional
 
 - Up
 - Down
 - Left
 - Right
 
-#### General
+##### General
 
 - Home
 - Menu
@@ -43,11 +45,3 @@
 |__________________________________|
 
 ```
-
-### Images
-
-##### Front
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/LCD%20Base%20Station%20Front%20Plate/images/pcb_front.png">
-
-##### Back
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/LCD%20Base%20Station%20Front%20Plate/images/pcb_back.png">
