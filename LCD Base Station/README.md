@@ -1,11 +1,6 @@
-# LCD Base Station
+### Features
 
-- Electric Imp (WiFi)
-- ST7565LCD (128x64 LCD + RGB backlight)
-- MCP2300X (8x buttons)
-- Connection to front plate
-
-## Sensors
+Base station for a home wireless sensor network, built in sensors including: 
 
 - HTU21D (Temperature + Humidity)
 - DHT-22 (Temperature + Humidity)
@@ -17,8 +12,11 @@
 - PIR (Movement)
 - 3x Inputs/Outputs
 
-## Other Features
+### Other Features
 
+- Electric Imp (WiFi)
+- ST7565LCD (128x64 LCD + RGB backlight)
+- MCP2300X (8x buttons)
 - ATMEGA328P with Arduino boot-loader
 - RMF12B/RFM69W radio
 - 3.3V operation
@@ -30,11 +28,3 @@
 - JST Battery connector
 - FTDI programming port
 - Battery level reporting
-
-### Images
-
-##### Front
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/LCD%20Base%20Station/images/pcb_front.png">
-
-##### Back
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/LCD%20Base%20Station/images/pcb_back.png">
