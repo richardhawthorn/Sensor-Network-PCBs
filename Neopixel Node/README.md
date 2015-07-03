@@ -2,7 +2,6 @@
 
 - 16 RGB Neopixels
 - 2x button inputs
-
 - ATMEGA328P with Arduino boot-loader
 - RMF12B/RFM69W radio
 - 3.3V operation
