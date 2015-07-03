@@ -12,8 +12,6 @@ Base station for a home wireless sensor network, built in sensors including:
 - PIR (Movement)
 - 3x Inputs/Outputs
 
-### Other Features
-
 - Electric Imp (WiFi)
 - ST7565LCD (128x64 LCD + RGB backlight)
 - MCP2300X (8x buttons)
