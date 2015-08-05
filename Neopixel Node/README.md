@@ -1,4 +1,4 @@
-### Neopixel Node
+### Features
 
 - 16 RGB Neopixels
 - 2x button inputs

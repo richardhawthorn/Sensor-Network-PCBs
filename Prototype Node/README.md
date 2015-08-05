@@ -1,9 +1,6 @@
-# Prototype Node
+### Features
 
-Features a prototype area to build your own circuits
-
-### Other Features
-
+- Prototype area for your own circuits
 - ATMEGA328P with Arduino boot-loader
 - RMF12B/RFM69W radio
 - 3.3V operation
@@ -25,11 +22,3 @@ Features a prototype area to build your own circuits
 
 ##### RH001.1
 - First Version
-
-### Images
-
-##### Front
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/Prototype%20Node/images/pcb_v1_front.png">
-
-##### Back
-<img src="https://raw.githubusercontent.com/richardhawthorn/Sensor-Network-PCBs/master/Prototype%20Node/images/pcb_v1_back.png">
