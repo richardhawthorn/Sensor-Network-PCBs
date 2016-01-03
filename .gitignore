@@ -2,3 +2,5 @@
 *.s#*
 *.job
 *.pro
+*.DS_Store
+*.lck
